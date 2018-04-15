@@ -13,6 +13,7 @@ services:
       - clickhouse
     volumes:
       - ./jupyter-data-dir:/home/jovyan/work
+      - ./clickhouse_helper.py:/home/jovyan/work/clickhouse_helper.py
     # for password using generate pwd hash IPython.lib.passwd()
     # command: start-notebook.sh --NotebookApp.password='sha1:{Generate with IPython.lib.passwd()}'
 

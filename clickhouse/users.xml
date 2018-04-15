@@ -28,7 +28,7 @@
     <users>
         <admin>
             <!-- !! Change password !! -->
-            <password>CLICHOUSE_PASSWORD</password>
+            <password>CLICKHOUSE_PASSWORD</password>
             <networks incl="networks" replace="replace">
                 <ip>::/0</ip>
             </networks>
