@@ -35,3 +35,8 @@ Set volume to datastore in *docker-compose.yml*
 Uses as image
 
 To use basic HTTP auth set environment variable in *docker-compose.yml*
+
+Helpers
+---
+In work directory of Jupyter Notebook added clickhouse python connection helper.
+Set USER/PASSWORD or use default readonly user. Import to you *.ipynb file clickhouse_helper and send query. You can get raw responce or pandas dataframe. 
